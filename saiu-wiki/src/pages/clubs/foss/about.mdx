@@ -1,0 +1,27 @@
+import ClubLayout from '../../components/ClubLayout';
+import FossTypewriter from '../../components/FossTypewriter';
+import FossStats from '../../components/FossStats';
+import FossTerminalCard from '../../components/FossTerminalCard';
+
+export const clubSlug = 'foss';
+
+<ClubLayout slug={clubSlug}>
+
+# Welcome to the FOSS Club
+
+<FossTypewriter text='> Initializing FOSS_CLUB...' speed={100} />
+
+<FossStats stats={[{ label = 'Members', value = 124 }, { label = 'Repositories', value = 42 }, { label = 'Events', value = 12 }]} />
+
+<FossTerminalCard title='System Status' prompt='status --check'>
+  All systems operational. Open source philosophy active.
+</FossTerminalCard>
+
+<FossTerminalCard title='Recent Activity' prompt='git log -n 1'>
+  <p>feat: added new automation script for club builds</p>
+</FossTerminalCard>
+
+## Our Mission
+We promote the use of free and open-source software and foster a community of developers and enthusiasts.
+
+</ClubLayout>
