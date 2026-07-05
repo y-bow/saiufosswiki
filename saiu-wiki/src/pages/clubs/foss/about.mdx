@@ -1,7 +1,7 @@
-import ClubLayout from '../../components/ClubLayout';
-import FossTypewriter from '../../components/FossTypewriter';
-import FossStats from '../../components/FossStats';
-import FossTerminalCard from '../../components/FossTerminalCard';
+import ClubLayout from '../../../components/ClubLayout';
+import FossTypewriter from '../../../components/FossTypewriter';
+import FossStats from '../../../components/FossStats';
+import FossTerminalCard from '../../../components/FossTerminalCard';
 
 export const clubSlug = 'foss';
 
@@ -11,7 +11,7 @@ export const clubSlug = 'foss';
 
 <FossTypewriter text='> Initializing FOSS_CLUB...' speed={100} />
 
-<FossStats stats={[{ label = 'Members', value = 124 }, { label = 'Repositories', value = 42 }, { label = 'Events', value = 12 }]} />
+<FossStats stats={[{ label: 'Members', value: 124 }, { label: 'Repositories', value: 42 }, { label: 'Events', value: 12 }]} />
 
 <FossTerminalCard title='System Status' prompt='status --check'>
   All systems operational. Open source philosophy active.
