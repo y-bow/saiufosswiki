@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
-interface FossTypewriterProps {
+interface ClubTypewriterProps {
   text: string;
   speed?: number;
 }
 
-const FossTypewriter: React.FC<FossTypewriterProps> = ({ text, speed = 50 }) => {
+const ClubTypewriter: React.FC<ClubTypewriterProps> = ({ text, speed = 50 }) => {
   const [displayedText, setDisplayedText] = useState('');
   const [isDone, setIsDone] = useState(false);
 
@@ -32,4 +32,4 @@ const FossTypewriter: React.FC<FossTypewriterProps> = ({ text, speed = 50 }) => 
   );
 };
 
-export default FossTypewriter;
+export default ClubTypewriter;

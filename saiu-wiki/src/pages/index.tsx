@@ -12,9 +12,27 @@ const IndexPage: React.FC = () => {
         margin: '0 auto',
         minHeight: '80vh'
       }}>
-        <h1 style={{ textAlign: 'center', fontSize: '3.5rem', marginBottom: '3rem', fontWeight: 'bold' }}>
-          SAIU Clubs Wiki
-        </h1>
+        <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
+          <h1 style={{ 
+            fontSize: 'clamp(3rem, 10vw, 5rem)', 
+            marginBottom: '1rem', 
+            fontWeight: 'bold',
+            background: 'linear-gradient(to right, #2196f3, #e91e63, #9c27b0)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent'
+          }}>
+            SAIU Clubs Wiki
+          </h1>
+          <p style={{ 
+            fontSize: 'clamp(1.2rem, 3vw, 1.8rem)', 
+            opacity: 0.8,
+            maxWidth: '800px',
+            margin: '0 auto'
+          }}>
+            Discover, connect, and grow with the diverse student organizations at Sai University.
+          </p>
+        </div>
+
         <div style={{ 
           display: 'grid', 
           gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', 

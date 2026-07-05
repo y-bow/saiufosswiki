@@ -1,11 +1,27 @@
 import ClubLayout from '../../../components/ClubLayout';
+import ClubTypewriter from '../../../components/ClubTypewriter';
+import ClubStats from '../../../components/ClubStats';
+import ClubTerminalCard from '../../../components/ClubTerminalCard';
 
 export const clubSlug = 'dance';
 
 <ClubLayout slug={clubSlug}>
 
-# Welcome to the dance Club
+# Welcome to the Dance Club
 
-Our mission is to foster a community around dance.
+<ClubTypewriter text='> Finding the rhythm...' speed={150} />
+
+<ClubStats stats={[{ label: 'Styles Taught', value: 8 }, { label: 'Events', value: 15 }, { label: 'Members', value: 50 }]} />
+
+<ClubTerminalCard title='Studio Status' prompt='studio --check'>
+  Floor is clean. Music is ready. Let's dance.
+</ClubTerminalCard>
+
+<ClubTerminalCard title='Upcoming Workshop' prompt='workshop --next'>
+  <p>Contemporary Flow - Sunday at 2:00 PM</p>
+</ClubTerminalCard>
+
+## Our Mission
+To celebrate movement and expression through various dance styles, building community and physical wellness through rhythm and dance.
 
 </ClubLayout>

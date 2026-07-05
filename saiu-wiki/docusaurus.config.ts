@@ -109,8 +109,8 @@ const config: Config = {
           title: 'Wiki',
           items: [
             {
-              label: 'About',
-              to: '/about',
+              label: 'Home',
+              to: '/',
             },
           ],
         },

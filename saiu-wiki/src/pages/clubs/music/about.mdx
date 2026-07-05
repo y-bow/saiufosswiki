@@ -1,11 +1,27 @@
 import ClubLayout from '../../../components/ClubLayout';
+import ClubTypewriter from '../../../components/ClubTypewriter';
+import ClubStats from '../../../components/ClubStats';
+import ClubTerminalCard from '../../../components/ClubTerminalCard';
 
 export const clubSlug = 'music';
 
 <ClubLayout slug={clubSlug}>
 
-# Welcome to the music Club
+# Welcome to the Music Club
 
-Our mission is to foster a community around music.
+<ClubTypewriter text='> Tuning instruments...' speed={150} />
+
+<ClubStats stats={[{ label: 'Performances', value: 24 }, { label: 'Instruments', value: 15 }, { label: 'Members', value: 45 }]} />
+
+<ClubTerminalCard title='Sound Check' prompt='audio --status'>
+  All systems tuned. Ready for the next melody.
+</ClubTerminalCard>
+
+<ClubTerminalCard title='Recent Gig' prompt='gig --last'>
+  <p>Summer Jazz Night - 100+ attendees</p>
+</ClubTerminalCard>
+
+## Our Mission
+To bring people together through the universal language of music, fostering creativity, expression, and technical skill.
 
 </ClubLayout>

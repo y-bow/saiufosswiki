@@ -1,7 +1,7 @@
 import ClubLayout from '../../../components/ClubLayout';
-import FossTypewriter from '../../../components/FossTypewriter';
-import FossStats from '../../../components/FossStats';
-import FossTerminalCard from '../../../components/FossTerminalCard';
+import ClubTypewriter from '../../../components/ClubTypewriter';
+import ClubStats from '../../../components/ClubStats';
+import ClubTerminalCard from '../../../components/ClubTerminalCard';
 
 export const clubSlug = 'foss';
 
@@ -9,17 +9,17 @@ export const clubSlug = 'foss';
 
 # Welcome to the FOSS Club
 
-<FossTypewriter text='> Initializing FOSS_CLUB...' speed={100} />
+<ClubTypewriter text='> Initializing FOSS_CLUB...' speed={100} />
 
-<FossStats stats={[{ label: 'Members', value: 124 }, { label: 'Repositories', value: 42 }, { label: 'Events', value: 12 }]} />
+<ClubStats stats={[{ label: 'Members', value: 124 }, { label: 'Repositories', value: 42 }, { label: 'Events', value: 12 }]} />
 
-<FossTerminalCard title='System Status' prompt='status --check'>
+<ClubTerminalCard title='System Status' prompt='status --check'>
   All systems operational. Open source philosophy active.
-</FossTerminalCard>
+</ClubTerminalCard>
 
-<FossTerminalCard title='Recent Activity' prompt='git log -n 1'>
+<ClubTerminalCard title='Recent Activity' prompt='git log -n 1'>
   <p>feat: added new automation script for club builds</p>
-</FossTerminalCard>
+</ClubTerminalCard>
 
 ## Our Mission
 We promote the use of free and open-source software and foster a community of developers and enthusiasts.

@@ -1,11 +1,27 @@
 import ClubLayout from '../../../components/ClubLayout';
+import ClubTypewriter from '../../../components/ClubTypewriter';
+import ClubStats from '../../../components/ClubStats';
+import ClubTerminalCard from '../../../components/ClubTerminalCard';
 
 export const clubSlug = 'gardening';
 
 <ClubLayout slug={clubSlug}>
 
-# Welcome to the gardening Club
+# Welcome to the Gardening Club
 
-Our mission is to foster a community around gardening.
+<ClubTypewriter text='> Preparing the soil...' speed={150} />
+
+<ClubStats stats={[{ label: 'Plants Grown', value: 210 }, { label: 'Garden Beds', value: 8 }, { label: 'Members', value: 30 }]} />
+
+<ClubTerminalCard title='Garden Status' prompt='garden --check'>
+  Soil is fertile and watered. Growth is steady.
+</ClubTerminalCard>
+
+<ClubTerminalCard title='Next Planting' prompt='planting --schedule'>
+  <p>Spring Seedling Workshop - Saturday morning</p>
+</ClubTerminalCard>
+
+## Our Mission
+To nurture nature and our community by growing plants, learning sustainable gardening techniques, and sharing the joy of cultivation.
 
 </ClubLayout>

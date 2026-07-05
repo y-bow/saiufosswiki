@@ -6,7 +6,7 @@ interface StatItem {
   value: number;
 }
 
-interface FossStatsProps {
+interface ClubStatsProps {
   stats: StatItem[];
 }
 
@@ -15,7 +15,7 @@ const StatNumber: React.FC<{ target: number }> = ({ target }) => {
   return <span>{count}</span>;
 };
 
-const FossStats: React.FC<FossStatsProps> = ({ stats }) => {
+const ClubStats: React.FC<ClubStatsProps> = ({ stats }) => {
   return (
     <div style={{ 
       display: 'grid', 
@@ -25,7 +25,7 @@ const FossStats: React.FC<FossStatsProps> = ({ stats }) => {
     }}>
       {stats.map((stat, idx) => (
         <div key={idx} style={{ textAlign: 'center' }}>
-          <div style={{ fontSize: '2.5rem', fontWeight: 'bold', color: '#39ff88' }}>
+          <div style={{ fontSize: '2.5rem', fontWeight: 'bold', color: 'var(--club-accent, #39ff88)' }}>
             <StatNumber target={stat.value} />
           </div>
           <div style={{ fontSize: '1rem', opacity: 0.8 }}>{stat.label}</div>
@@ -35,4 +35,4 @@ const FossStats: React.FC<FossStatsProps> = ({ stats }) => {
   );
 };
 
-export default FossStats;
+export default ClubStats;
