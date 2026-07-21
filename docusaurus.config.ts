@@ -14,7 +14,7 @@ const config: Config = {
   url: 'https://saiufoss.github.io',
   baseUrl: '/saiufosswiki/',
 
-  organizationName: 'saiufoss',
+  organizationName: 'y-bow',
   projectName: 'saiufosswiki',
 
   onBrokenLinks: 'throw',
@@ -36,7 +36,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/saiufoss/wiki/tree/main/',
+            'https://github.com/y-bow/saiufosswiki/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -47,7 +47,7 @@ const config: Config = {
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'All Posts',
           editUrl:
-            'https://github.com/saiufoss/wiki/tree/main/',
+            'https://github.com/y-bow/saiufosswiki/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -87,7 +87,7 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/saiufoss/wiki',
+          href: 'https://github.com/y-bow/saiufosswiki',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
@@ -133,7 +133,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/saiufoss/wiki',
+              href: 'https://github.com/y-bow/saiufosswiki',
             },
           ],
         },
@@ -146,7 +146,7 @@ const config: Config = {
             },
             {
               label: 'Report an Issue',
-              href: 'https://github.com/saiufoss/wiki/issues',
+              href: 'https://github.com/y-bow/saiufosswiki/issues',
             },
             {
               label: 'Open Source Licenses',

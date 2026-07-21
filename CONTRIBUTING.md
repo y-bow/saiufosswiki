@@ -4,7 +4,7 @@ Thank you for your interest in contributing to the SAIU FOSS Wiki! This is a com
 
 ## Getting Started
 
-1. **Fork this repo** — Click the "Fork" button at the top right of [saiufoss/wiki](https://github.com/saiufoss/wiki).
+1. **Fork this repo** — Click the "Fork" button at the top right of [saiufoss/wiki](https://github.com/y-bow/saiufosswiki).
 
 2. **Clone your fork** — Clone the repository to your local machine:
    ```bash
@@ -50,4 +50,4 @@ A maintainer will review your PR and merge it. Thank you for contributing!
 
 ## Questions?
 
-Open an [issue](https://github.com/saiufoss/wiki/issues) or reach out to a club maintainer.
+Open an [issue](https://github.com/y-bow/saiufosswiki/issues) or reach out to a club maintainer.

@@ -61,5 +61,5 @@ A curated collection of free and open source software tools, policy links, and l
 | **LibreOffice** | Office suite |
 
 :::tip
-Know a great FOSS resource we missed? [Open a pull request](https://github.com/saiufoss/wiki/blob/main/CONTRIBUTING.md) to add it!
+Know a great FOSS resource we missed? [Open a pull request](https://github.com/y-bow/saiufosswiki/blob/main/CONTRIBUTING.md) to add it!
 :::

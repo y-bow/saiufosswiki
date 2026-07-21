@@ -13,7 +13,7 @@ The FOSS Club maintains and contributes to a number of open source projects. Bel
 
 This very site! A community-maintained wiki built with [Docusaurus](https://docusaurus.io/) and hosted on GitHub Pages. Contributions welcome — event writeups, blog posts, resource links, and more.
 
-- **Repository:** [saiufoss/wiki](https://github.com/saiufoss/wiki)
+- **Repository:** [saiufoss/wiki](https://github.com/y-bow/saiufosswiki)
 - **Stack:** Docusaurus v3, TypeScript, GitHub Pages
 
 ### Campus OSM Mapping
@@ -26,7 +26,7 @@ We are actively mapping the SAI University campus and surrounding areas on [Open
 
 If you have an idea for an open source project that benefits the club or campus community, here's how to get started:
 
-1. Open a [project proposal issue](https://github.com/saiufoss/wiki/issues) with a brief description
+1. Open a [project proposal issue](https://github.com/y-bow/saiufosswiki/issues) with a brief description
 2. Find collaborators at a club meeting or on our community channels
 3. Create a repository under the `saiufoss` GitHub organisation
 4. Add a README, LICENSE (preferably MIT or AGPL), and a CONTRIBUTING guide

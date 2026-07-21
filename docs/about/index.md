@@ -27,7 +27,7 @@ Whether you are writing your first line of code or maintaining an upstream proje
 ## Contact
 
 - **Email:** fossclub@saiuniversity.edu.in
-- **GitHub:** [saiufoss/wiki](https://github.com/saiufoss/wiki)
+- **GitHub:** [saiufoss/wiki](https://github.com/y-bow/saiufosswiki)
 - **FOSS United:** [fossunited.org](https://fossunited.org)
 
 ---
