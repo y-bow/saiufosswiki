@@ -12,10 +12,10 @@ const config: Config = {
   },
 
   url: 'https://saiufoss.github.io',
-  baseUrl: '/wiki/',
+  baseUrl: '/saiufosswiki/',
 
   organizationName: 'saiufoss',
-  projectName: 'wiki',
+  projectName: 'saiufosswiki',
 
   onBrokenLinks: 'throw',
   markdown: {
