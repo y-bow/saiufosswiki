@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'SAIU FOSS Wiki',
   tagline: 'A living record of the FOSS Club at SAI University',
-  favicon: 'img/favicon2.png',
+  favicon: 'img/logo.png',
 
   future: {
     v4: true,
