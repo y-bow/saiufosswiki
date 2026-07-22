@@ -25,7 +25,7 @@
   --ifm-menu-color: #c9d1d9;
   --ifm-menu-color-active: #38BDF8;
   --ifm-menu-color-background-active: rgba(56, 189, 248, 0.08);
-  --ifm-menu-color-background-hover: rgba(255,255,255,0.05);
+  --ifm-menu-color-background-hover: rgba(255, 255, 255, 0.05);
   --docusaurus-highlighted-code-line-bg: rgba(56, 189, 248, 0.1);
 }
 
@@ -50,8 +50,8 @@
 }
 
 .navbar__logo img {
-  height: 28px !important;
-  max-height: 28px !important;
+  height: 50px !important;
+  max-height: 50px !important;
   width: auto !important;
   object-fit: contain;
   display: block;
