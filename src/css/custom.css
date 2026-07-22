@@ -8,7 +8,7 @@
   --ifm-color-primary-lightest: #E0F2FE;
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
   --ifm-code-font-size: 90%;
-  --ifm-navbar-height: 56px;
+  --ifm-navbar-height: 64px;
 }
 
 [data-theme='dark'] {
@@ -46,15 +46,18 @@
 .navbar__logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100%;
 }
 
 .navbar__logo img {
-  height: 50px !important;
-  max-height: 50px !important;
+  height: 60px !important;
+  max-height: 60px !important;
   width: auto !important;
   object-fit: contain;
   display: block;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .navbar__brand {
