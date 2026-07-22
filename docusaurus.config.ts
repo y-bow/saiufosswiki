@@ -80,7 +80,7 @@ const config: Config = {
         src: 'img/navbar_light.svg',
         srcDark: 'img/navbar_dark.svg',
         href: '/',
-        style: { height: '32px', width: 'auto' },
+        style: { height: '50px', width: 'auto' },
       },
       items: [
         {

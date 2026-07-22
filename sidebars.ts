@@ -12,7 +12,6 @@ const sidebars: SidebarsConfig = {
       label: 'About the Club',
       collapsed: false,
       items: [
-        'about/index',
         'about/mission',
         'about/team',
         'about/contact',
