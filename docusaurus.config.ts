@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'SaiU FOSS Wiki',
   tagline: 'A living record of the FOSS Club at Sai University',
-  favicon: 'img/logo.png',
+  favicon: 'img/favicon.png',
 
   future: {
     v4: true,
@@ -35,22 +35,16 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl:
-            'https://github.com/y-bow/saiufosswiki/tree/main/',
+          routeBasePath: '/',
+          editUrl: 'https://github.com/y-bow/saiufosswiki/edit/main/',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         blog: {
           showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'All Posts',
-          editUrl:
-            'https://github.com/y-bow/saiufosswiki/tree/main/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          editUrl: 'https://github.com/y-bow/saiufosswiki/edit/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -82,8 +76,11 @@ const config: Config = {
     navbar: {
       hideOnScroll: false,
       logo: {
-        alt: 'SaiU FOSS Wiki',
-        src: 'img/logo.png',
+        alt: 'FOSS Club Sai University',
+        src: 'img/navbar_light.svg',
+        srcDark: 'img/navbar_dark.svg',
+        href: '/',
+        style: { height: '32px', width: 'auto' },
       },
       items: [
         {
@@ -100,62 +97,14 @@ const config: Config = {
         autoCollapseCategories: true,
       },
     },
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 3,
+    },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'About Us',
-          items: [
-            {
-              label: 'About the Club',
-              to: '/docs/about',
-            },
-            {
-              label: 'Events',
-              to: '/docs/events',
-            },
-            {
-              label: 'Projects',
-              to: '/docs/projects',
-            },
-          ],
-        },
-        {
-          title: 'Stay in Touch',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'FOSS United',
-              href: 'https://fossunited.org',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/y-bow/saiufosswiki',
-            },
-          ],
-        },
-        {
-          title: 'Contribute',
-          items: [
-            {
-              label: 'Contributing Guide',
-              to: '/docs/resources',
-            },
-            {
-              label: 'Report an Issue',
-              href: 'https://github.com/y-bow/saiufosswiki/issues',
-            },
-            {
-              label: 'Open Source Licenses',
-              href: 'https://creativecommons.org/licenses/by-sa/4.0/',
-            },
-          ],
-        },
-      ],
-      copyright: `SaiU FOSS Club. Content: <a href="https://creativecommons.org/licenses/by-sa/4.0/" style="color: #7DD3FC;">CC BY-SA 4.0</a>. Code: <a href="https://opensource.org/licenses/MIT" style="color: #7DD3FC;">MIT</a>.`,
+      links: [],
+      copyright: `SaiU FOSS Club · Content: CC BY-SA 4.0 · Code: MIT · <a href="https://github.com/y-bow/saiufosswiki">GitHub</a>`,
     },
     prism: {
       theme: prismThemes.github,

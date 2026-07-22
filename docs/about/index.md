@@ -1,35 +1,26 @@
 ---
-sidebar_position: 1
-title: About SaiU FOSS Club
+title: SaiU FOSS Club Wiki
+slug: /
 ---
 
-# About SaiU FOSS Club
+# SaiU FOSS Club
 
-The **FOSS Club at Sai University** is a student-led community dedicated to promoting free and open source software across campus. We believe that learning, sharing, and building in the open creates better engineers and a stronger community.
+The **FOSS Club at Sai University** is a student-run open source community focused on building, contributing, and learning together.
 
-## What We Do
+We promote free and open source software, run workshops, map our city with OpenStreetMap, discuss tech policy, and build tools that matter.
 
-We organise workshops, hack nights, mapping parties, and contribute to upstream FOSS projects. Our activities are rooted in the values of transparency, collaboration, and the freedom to study, modify, and redistribute software.
+## What's Here
 
-## Our Mission
-
-The club operates in the spirit of [FOSS United](https://fossunited.org) and its network of campus communities across India. Our mission is to:
-
-- Create a welcoming space for students to explore open source
-- Build practical skills through hands-on events and projects
-- Contribute to public-interest technology like OpenStreetMap
-- Advocate for FOSS adoption in education and governance
+- **Events** — Writeups and records of every club event
+- **Projects** — Open source projects built by members
+- **Resources** — Curated FOSS tools, OSM guides, policy links
+- **Contribute** — How to add to this wiki
 
 ## Get Involved
 
-Whether you are writing your first line of code or maintaining an upstream project, there is a place for you here. Join our meetings, attend an event, or drop a message on our community channels.
+- Add an event writeup via Pull Request
+- Fix a typo, improve a page
+- Write a blog post about something you learned
+- Join us at the next event
 
-## Contact
-
-- **Email:** fossclub@saiuniversity.edu.in
-- **GitHub:** [saiufoss/wiki](https://github.com/y-bow/saiufosswiki)
-- **FOSS United:** [fossunited.org](https://fossunited.org)
-
----
-
-*This club is part of the [FOSS United Campus Clubs](https://fossunited.org) network.*
+This wiki is open source. Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
