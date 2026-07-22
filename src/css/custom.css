@@ -8,7 +8,7 @@
   --ifm-color-primary-lightest: #E0F2FE;
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
   --ifm-code-font-size: 90%;
-  --ifm-navbar-height: 56px;
+  --ifm-navbar-height: 64px;
 }
 
 [data-theme='dark'] {
@@ -25,7 +25,7 @@
   --ifm-menu-color: #c9d1d9;
   --ifm-menu-color-active: #38BDF8;
   --ifm-menu-color-background-active: rgba(56, 189, 248, 0.08);
-  --ifm-menu-color-background-hover: rgba(255,255,255,0.05);
+  --ifm-menu-color-background-hover: rgba(255, 255, 255, 0.05);
   --docusaurus-highlighted-code-line-bg: rgba(56, 189, 248, 0.1);
 }
 
@@ -46,15 +46,18 @@
 .navbar__logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100%;
 }
 
 .navbar__logo img {
-  height: 28px !important;
-  max-height: 28px !important;
+  height: 60px !important;
+  max-height: 60px !important;
   width: auto !important;
   object-fit: contain;
   display: block;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .navbar__brand {
