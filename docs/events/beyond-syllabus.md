@@ -9,7 +9,7 @@ tags: [open-source, git, mkdocs, documentation, workshop]
 
 **Date:** January 30, 2026
 **Format:** In-person Workshop
-**Speaker:** Siddharth Shivkumar
+**Speaker:** Hari Prasanth S
 **Organized by:** FOSS Club, Sai University
 
 ## Overview
