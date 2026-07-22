@@ -78,8 +78,8 @@ const config: Config = {
       hideOnScroll: false,
       logo: {
         alt: 'FOSS Club Sai University',
-        src: 'img/logo.png',
-        srcDark: 'img/logo.png',
+        src: 'img/navbar_light.svg',
+        srcDark: 'img/navbar_dark.svg',
         href: '/',
       },
       items: [

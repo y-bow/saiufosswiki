@@ -30,7 +30,6 @@ const sidebars: SidebarsConfig = {
         'events/law-in-foss',
         'events/alphafold-session',
         'events/beyond-syllabus',
-        'events/osm-mapping-party',
       ],
     },
     {
@@ -49,7 +48,6 @@ const sidebars: SidebarsConfig = {
         'resources/index',
         'resources/foss-tools',
         'resources/policy',
-        'resources/osm-guide',
       ],
     },
     {

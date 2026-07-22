@@ -15,14 +15,6 @@ A curated collection of free and open source software tools, policy links, and l
 | [FOSS United Docs](https://docs.fossunited.org) | Guides for running FOSS campus clubs |
 | [FOSS United Club Ideas](https://fossunited.org/clubs-contribution-ideas) | Ideas for club activities and contributions |
 
-## Geospatial & Mapping
-
-| Resource | Description |
-|----------|-------------|
-| [OpenStreetMap](https://www.openstreetmap.org) | The free wiki world map — contribute and learn |
-| [OSM India](https://wiki.openstreetmap.org/wiki/India) | OpenStreetMap community and resources for India |
-| [StreetComplete](https://streetcomplete.app) | Easy-to-use Android/iOS app for surveying OSM data |
-
 ## Digital Rights & Policy
 
 | Resource | Description |

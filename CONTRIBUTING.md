@@ -27,7 +27,7 @@ Thank you for your interest in contributing to the SaiU FOSS Wiki! This is a com
 
    ```bash
    git add .
-   git commit -m "Add writeup for OSM Mapping Party"
+    git commit -m "Add writeup for Git Workshop"
    git push origin add-my-event
    ```
 

@@ -16,12 +16,6 @@ This very site! A community-maintained wiki built with [Docusaurus](https://docu
 - **Repository:** [saiufoss/wiki](https://github.com/y-bow/saiufosswiki)
 - **Stack:** Docusaurus v3, TypeScript, GitHub Pages
 
-### Campus OSM Mapping
-
-We are actively mapping the Sai University campus and surrounding areas on [OpenStreetMap](https://www.openstreetmap.org). Members contribute building data, paths, and points of interest.
-
-- **Tracker:** *Coming soon*
-
 ## How to Start a Project
 
 If you have an idea for an open source project that benefits the club or campus community, here's how to get started:
