@@ -39,6 +39,7 @@ const config: Config = {
           editUrl: 'https://github.com/y-bow/saiufosswiki/edit/main/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
+          breadcrumbs: false,
         },
         blog: {
           showReadingTime: true,
@@ -77,10 +78,9 @@ const config: Config = {
       hideOnScroll: false,
       logo: {
         alt: 'FOSS Club Sai University',
-        src: 'img/navbar_light.svg',
-        srcDark: 'img/navbar_dark.svg',
+        src: 'img/logo.png',
+        srcDark: 'img/logo.png',
         href: '/',
-        style: { height: '50px', width: 'auto' },
       },
       items: [
         {
