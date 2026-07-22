@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'SAIU FOSS Wiki',
-  tagline: 'A living record of the FOSS Club at SAI University',
+  title: 'SaiU FOSS Wiki',
+  tagline: 'A living record of the FOSS Club at Sai University',
   favicon: 'img/logo.png',
 
   future: {
@@ -82,7 +82,7 @@ const config: Config = {
     navbar: {
       hideOnScroll: false,
       logo: {
-        alt: 'SAIU FOSS Wiki',
+        alt: 'SaiU FOSS Wiki',
         src: 'img/logo.png',
       },
       items: [
@@ -155,7 +155,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `SAIU FOSS Club. Content: <a href="https://creativecommons.org/licenses/by-sa/4.0/" style="color: #7DD3FC;">CC BY-SA 4.0</a>. Code: <a href="https://opensource.org/licenses/MIT" style="color: #7DD3FC;">MIT</a>.`,
+      copyright: `SaiU FOSS Club. Content: <a href="https://creativecommons.org/licenses/by-sa/4.0/" style="color: #7DD3FC;">CC BY-SA 4.0</a>. Code: <a href="https://opensource.org/licenses/MIT" style="color: #7DD3FC;">MIT</a>.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -9,7 +9,7 @@ tags: [legal, policy, open-source, online]
 
 **Date:** November 23, 2025
 **Format:** Online Session
-**Organized by:** FOSS Club, SAI University
+**Organized by:** FOSS Club, Sai University
 
 ## Overview
 

@@ -1,6 +1,6 @@
 # How to Contribute
 
-Thank you for your interest in contributing to the SAIU FOSS Wiki! This is a community-maintained resource, and we welcome contributions from all club members.
+Thank you for your interest in contributing to the SaiU FOSS Wiki! This is a community-maintained resource, and we welcome contributions from all club members.
 
 ## Getting Started
 

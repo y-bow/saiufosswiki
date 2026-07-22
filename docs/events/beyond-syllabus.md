@@ -10,7 +10,7 @@ tags: [open-source, git, mkdocs, documentation, workshop]
 **Date:** January 30, 2026
 **Format:** In-person Workshop
 **Speaker:** Siddharth Shivkumar
-**Organized by:** FOSS Club, SAI University
+**Organized by:** FOSS Club, Sai University
 
 ## Overview
 
@@ -26,7 +26,7 @@ A practical session on how open source actually works beyond the classroom, open
 
 ## Key Takeaway
 
-Open source is not just a development methodology — it's a learning culture. This session was a strong step towards building that culture at SAI University.
+Open source is not just a development methodology — it's a learning culture. This session was a strong step towards building that culture at Sai University.
 
 ## Resources
 

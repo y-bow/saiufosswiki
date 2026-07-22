@@ -9,7 +9,7 @@ tags: [launch, open-source, workshop]
 
 **Date:** September 10, 2025
 **Format:** In-person Workshop
-**Organized by:** FOSS Club, SAI University
+**Organized by:** FOSS Club, Sai University
 
 ## Overview
 

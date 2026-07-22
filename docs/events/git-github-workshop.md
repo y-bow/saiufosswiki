@@ -9,7 +9,7 @@ tags: [git, github, version-control, workshop]
 
 **Date:** September 17, 2025
 **Format:** In-person Workshop
-**Organized by:** FOSS Club, SAI University
+**Organized by:** FOSS Club, Sai University
 
 ## Overview
 

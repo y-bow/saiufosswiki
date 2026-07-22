@@ -16,7 +16,7 @@ title: OpenStreetMap Mapping Party
 At this mapping party, we will:
 
 1. Learn the basics of editing OpenStreetMap
-2. Survey and map local points of interest around the SAI University campus
+2. Survey and map local points of interest around the Sai University campus
 3. Add building footprints, roads, and landmarks
 4. Contribute to India's geospatial commons
 
@@ -37,9 +37,9 @@ Everyone! No prior experience with mapping or GIS is needed. We will walk you th
 |---|---|
 | **Date** | *TBA — August 2025* |
 | **Time** | *TBA* |
-| **Venue** | SAI University Campus, Chennai |
+| **Venue** | Sai University Campus, Chennai |
 | **Registration** | *Link coming soon* |
 
 ---
 
-*Organised by the SAIU FOSS Club in partnership with the Indian OSM community.*
+*Organised by the SaiU FOSS Club in partnership with the Indian OSM community.*

@@ -9,7 +9,7 @@ tags: [AI, biology, research, open-science, workshop]
 
 **Date:** December 13, 2025
 **Format:** In-person Workshop
-**Organized by:** FOSS Club, SAI University
+**Organized by:** FOSS Club, Sai University
 
 ## Overview
 

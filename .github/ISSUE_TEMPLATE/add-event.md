@@ -1,6 +1,6 @@
 ---
 name: Add Event
-about: Suggest an event for the SAIU FOSS Wiki
+about: Suggest an event for the SaiU FOSS Wiki
 title: "[Event] "
 labels: event
 assignees: ''

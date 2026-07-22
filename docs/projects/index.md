@@ -9,7 +9,7 @@ The FOSS Club maintains and contributes to a number of open source projects. Bel
 
 ## Active Projects
 
-### SAIU FOSS Wiki
+### SaiU FOSS Wiki
 
 This very site! A community-maintained wiki built with [Docusaurus](https://docusaurus.io/) and hosted on GitHub Pages. Contributions welcome — event writeups, blog posts, resource links, and more.
 
@@ -18,7 +18,7 @@ This very site! A community-maintained wiki built with [Docusaurus](https://docu
 
 ### Campus OSM Mapping
 
-We are actively mapping the SAI University campus and surrounding areas on [OpenStreetMap](https://www.openstreetmap.org). Members contribute building data, paths, and points of interest.
+We are actively mapping the Sai University campus and surrounding areas on [OpenStreetMap](https://www.openstreetmap.org). Members contribute building data, paths, and points of interest.
 
 - **Tracker:** *Coming soon*
 

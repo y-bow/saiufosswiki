@@ -9,7 +9,7 @@ tags: [policy, antitrust, DPDP, legal, workshop]
 
 **Date:** November 20, 2025
 **Format:** In-person Workshop
-**Organized by:** FOSS Club, SAI University
+**Organized by:** FOSS Club, Sai University
 
 ## Overview
 

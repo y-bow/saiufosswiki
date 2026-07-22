@@ -17,7 +17,7 @@ Under the following terms:
 To view a copy of this license, visit: https://creativecommons.org/licenses/by-sa/4.0/
 
 ```
-Copyright (c) SAIU FOSS Club
+Copyright (c) SaiU FOSS Club
 
 This work is licensed under the Creative Commons
 Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
@@ -37,7 +37,7 @@ All source code in this repository (Docusaurus configuration, custom CSS, React 
 ```
 MIT License
 
-Copyright (c) 2025 SAIU FOSS Club
+Copyright (c) 2025 SaiU FOSS Club
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

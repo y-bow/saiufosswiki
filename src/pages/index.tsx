@@ -17,7 +17,7 @@ function HeroSection() {
         <div className={styles.heroGrid}>
           <div className={styles.heroContent}>
             <Heading as="h1" className={styles.heroTitle}>
-              Building SAI University's FOSS Ecosystem
+              Building Sai University's FOSS Ecosystem
             </Heading>
             <p className={styles.heroSubtitle}>
               We meet, we map, we build, we share — openly.
@@ -38,7 +38,7 @@ function HeroSection() {
           <div className={styles.heroGraphic}>
             <img
               src={colorMode === 'dark' ? 'C:\Users\vaibh\Documents\GitHub\saiufosswiki\static\img\logo-light.png' : 'C:\Users\vaibh\Documents\GitHub\saiufosswiki\static\img\logo-dark.png'}
-              alt="SAIU FOSS Club Logo"
+              alt="SaiU FOSS Club Logo"
               className={styles.heroLogo}
             />
           </div>
@@ -73,10 +73,10 @@ function AboutSection() {
           <div className={styles.aboutLeft}>
             <span className={styles.sectionLabel}>ABOUT</span>
             <Heading as="h2" className={styles.aboutTitle}>
-              A community-driven space for free and open source software at SAI University.
+              A community-driven space for free and open source software at Sai University.
             </Heading>
             <p className={styles.aboutText}>
-              The FOSS Club at SAI University brings together students passionate
+              The FOSS Club at Sai University brings together students passionate
               about open source. We organise workshops, mapping parties, hack nights,
               and contribute to upstream projects — all in the spirit of learning by
               doing, sharing freely, and building in the open.
@@ -155,7 +155,7 @@ function EventsSection() {
       badge: 'CHENNAI',
       title: 'OpenStreetMap Mapping Party',
       date: 'August 2025',
-      location: 'SAI University Campus',
+      location: 'Sai University Campus',
     },
     {
       badge: 'ONLINE',
@@ -167,7 +167,7 @@ function EventsSection() {
       badge: 'CHENNAI',
       title: 'FOSS Install Fest',
       date: 'October 2025',
-      location: 'SAI University, Chennai',
+      location: 'Sai University, Chennai',
     },
   ];
 
@@ -231,7 +231,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="Home"
-      description="A living record of the FOSS Club at SAI University">
+      description="A living record of the FOSS Club at Sai University">
       <HeroSection />
       <main>
         <AboutSection />

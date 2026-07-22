@@ -1,14 +1,14 @@
-# SAIU FOSS Wiki
+# SaiU FOSS Wiki
 
-A community-maintained knowledge base for the FOSS Club at SAI University. Built with [Docusaurus](https://docusaurus.io/) and hosted on GitHub Pages.
+A community-maintained knowledge base for the FOSS Club at Sai University. Built with [Docusaurus](https://docusaurus.io/) and hosted on GitHub Pages.
 
-**Live site:** [saiufoss.github.io/saiufosswiki](https://saiufoss.github.io/saiufosswiki/)
+**Live site:** [SaiU FOSS Wiki](https://y-bow.github.io/saiufosswiki/)
 
 ---
 
 ## About
 
-The SAIU FOSS Wiki is the central record of the FOSS Club's events, projects, resources, and blog posts. It is maintained collaboratively by club members and open to contributions from anyone in the community.
+The SaiU FOSS Wiki is the central record of the FOSS Club's events, projects, resources, and blog posts. It is maintained collaboratively by club members and open to contributions from anyone in the community.
 
 This project is part of the [FOSS United](https://fossunited.org) campus clubs network.
 

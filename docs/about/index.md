@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-title: About SAIU FOSS Club
+title: About SaiU FOSS Club
 ---
 
-# About SAIU FOSS Club
+# About SaiU FOSS Club
 
-The **FOSS Club at SAI University** is a student-led community dedicated to promoting free and open source software across campus. We believe that learning, sharing, and building in the open creates better engineers and a stronger community.
+The **FOSS Club at Sai University** is a student-led community dedicated to promoting free and open source software across campus. We believe that learning, sharing, and building in the open creates better engineers and a stronger community.
 
 ## What We Do
 

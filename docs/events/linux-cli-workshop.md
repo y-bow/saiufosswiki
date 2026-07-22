@@ -9,7 +9,7 @@ tags: [linux, command-line, terminal, workshop]
 
 **Date:** September 24, 2025
 **Format:** In-person Workshop
-**Organized by:** FOSS Club, SAI University
+**Organized by:** FOSS Club, Sai University
 
 ## Overview
 
