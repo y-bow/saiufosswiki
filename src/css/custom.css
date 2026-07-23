@@ -77,8 +77,8 @@
 /* ─── LIGHT THEME ─────────────────────────────────────── */
 
 [data-theme='light'] {
-  --ifm-background-color: #ffffff;
-  --ifm-background-surface-color: #f6f8fa;
+  --ifm-background-color: #f6f8fa;
+  --ifm-background-surface-color: #ffffff;
   --ifm-navbar-background-color: #ffffff;
   --ifm-color-primary: #0284C7;
   --ifm-color-primary-dark: #0369A1;
@@ -542,4 +542,23 @@
 
 [data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
   background: #484f58;
+}
+
+/* ─── LAYOUT WIDTH ────────────────────────────────────── */
+/* Widen the doc content column to use more horizontal space */
+
+@layer docusaurus.infima {
+  @media (min-width: 997px) {
+    .col[class*="docItemCol"] {
+      max-width: 80% !important;
+    }
+  }
+}
+
+/* ─── BUTTON FIXES ────────────────────────────────────── */
+/* Suppress auto-wrapped <p> inside Infima buttons (MDX artifact) */
+
+.button p {
+  margin: 0;
+  line-height: inherit;
 }
