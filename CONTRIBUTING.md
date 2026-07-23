@@ -49,7 +49,7 @@ Your member profile lives on the wiki and shows up on the [Members](https://saiu
 
 2. **Fork this repo** — Click "Fork" at the top right of [saiufosswiki](https://github.com/y-bow/saiufosswiki).
 
-3. **Copy the template** — Find `docs/members/TEMPLATE.md` and copy it. Rename the copy to `your-name.md` (use lowercase and hyphens, like `john-doe.md`).
+3. **Copy the template** — Find `docs/about/members/TEMPLATE.md` and copy it. Rename the copy to `your-name.md` (use lowercase and hyphens, like `john-doe.md`).
 
 4. **Fill in the fields** — Open the file and fill in every frontmatter field. Your `fossunited` username is required. If you want a custom photo instead of your FOSS United avatar, upload it to `static/img/members/your-name.jpg` and set the `photo` field.
 

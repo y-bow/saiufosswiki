@@ -15,7 +15,7 @@ const sidebars: SidebarsConfig = {
         'about/mission',
         'about/team',
         'about/contact',
-        'members/index',
+        'about/members/index',
       ],
     },
     {
