@@ -119,24 +119,47 @@
 }
 
 .navbar__logo {
-  height: 28px;
   display: flex;
   align-items: center;
 }
 
 .navbar__logo img {
-  height: 28px !important;
-  width: auto !important;
-  max-height: 28px !important;
-  object-fit: contain !important;
-  display: block !important;
+  height: 32px;
+  width: auto;
+  display: block;
+}
+
+/* ─── BRANDED NAVBAR: icon + text stack ─────────────── */
+
+.navbar-brand-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.navbar-brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.navbar-brand-primary {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ifm-navbar-link-color);
+}
+
+.navbar-brand-secondary {
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--ifm-color-content-secondary);
 }
 
 .navbar__title {
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  color: var(--ifm-navbar-link-color);
+  display: none;
 }
 
 .navbar__link {
