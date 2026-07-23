@@ -24,10 +24,10 @@ Your member profile lives on this wiki and shows up on the [Members](../members/
 
 | Field | Required | Example |
 |-------|----------|---------|
-| `name` | Yes | `Vaibhav B` |
-| `role` | Yes | `President`, `Core Member`, or `Member` |
+| `name` | Yes | `John Doe` |
+| `role` | Yes | `Core Member`, or `Member` |
 | `batch` | Yes | `2028` |
-| `github` | Yes | `y-bow` |
+| `github` | Yes | `your-github-username` |
 | `fossunited` | Yes | `your-fossunited-username` |
 | `photo` | No | `/img/members/your-name.jpg` (custom photo path, optional — FOSS United avatar used by default) |
 | `linkedin` | No | `your-linkedin-username` |
