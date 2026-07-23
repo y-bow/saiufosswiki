@@ -75,7 +75,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/saiu-foss-social-card.png',
+    // image: 'img/saiu-foss-social-card.png', // TODO: add social card image
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,

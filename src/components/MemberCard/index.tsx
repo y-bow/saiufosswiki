@@ -56,16 +56,7 @@ export default function MemberCard({ member }: { member: Member }) {
       style={{ textDecoration: 'none', color: 'inherit' }}
     >
       <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          gap: 8,
-          padding: 16,
-          borderRadius: 10,
-          cursor: 'pointer',
-          transition: 'transform 0.2s',
-        }}
+        className="member-card"
         onMouseEnter={(e) => {
           e.currentTarget.style.transform = 'translateY(-2px)';
         }}
@@ -74,15 +65,7 @@ export default function MemberCard({ member }: { member: Member }) {
         }}
       >
         <div
-          style={{
-            width: 120,
-            height: 120,
-            borderRadius: '50%',
-            overflow: 'hidden',
-            border: '3px solid transparent',
-            transition: 'border-color 0.2s',
-            flexShrink: 0,
-          }}
+          className="member-card__avatar"
           onMouseEnter={(e) => {
             e.currentTarget.style.borderColor = '#38bdf8';
           }}
@@ -101,12 +84,12 @@ export default function MemberCard({ member }: { member: Member }) {
             }}
           />
         </div>
-        <div style={{ textAlign: 'center' }}>
-          <div style={{ fontWeight: 600, fontSize: 14 }}>{member.name}</div>
-          <div style={{ fontSize: 13, color: '#8b949e' }}>{member.role}</div>
+        <div className="member-card__info">
+          <div className="member-card__name">{member.name}</div>
+          <div className="member-card__role">{member.role}</div>
         </div>
         <div
-          style={{ display: 'flex', gap: 6, marginTop: 2 }}
+          className="member-card__links"
           onClick={(e) => e.preventDefault()}
         >
           {member.github && (

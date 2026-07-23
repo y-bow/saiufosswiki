@@ -13,30 +13,10 @@ export default function MembersGrid({ coreOnly = false }: MembersGridProps) {
     : sortedMembers;
 
   return (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(5, 1fr)',
-        gap: 8,
-        marginTop: 24,
-      }}
-    >
+    <div className="members-grid">
       {displayMembers.map((member) => (
         <MemberCard key={member.slug} member={member} />
       ))}
-
-      <style>{`
-        @media (max-width: 996px) {
-          div[style*="grid-template-columns"] {
-            grid-template-columns: repeat(3, 1fr) !important;
-          }
-        }
-        @media (max-width: 600px) {
-          div[style*="grid-template-columns"] {
-            grid-template-columns: repeat(2, 1fr) !important;
-          }
-        }
-      `}</style>
     </div>
   );
 }

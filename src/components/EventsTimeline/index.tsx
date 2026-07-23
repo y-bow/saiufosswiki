@@ -114,18 +114,7 @@ export default function EventsTimeline() {
               to={event.slug}
               style={{ textDecoration: 'none', flex: 1 }}
             >
-              <div style={{
-                background: 'var(--ifm-background-surface-color)',
-                border: '1px solid var(--ifm-toc-border-color)',
-                borderRadius: '8px',
-                padding: '14px 16px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
-                gap: '12px',
-                transition: 'border-color 0.15s ease, box-shadow 0.15s ease',
-                cursor: 'pointer',
-              }}
+              <div className="event-card"
               onMouseEnter={e => {
                 const el = e.currentTarget as HTMLDivElement;
                 el.style.borderColor = 'var(--ifm-color-primary)';
@@ -154,7 +143,7 @@ export default function EventsTimeline() {
                   </div>
                 </div>
 
-                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
+                <div className="event-card__meta">
                   <span style={{
                     fontSize: '11px',
                     fontWeight: 600,
