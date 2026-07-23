@@ -4,7 +4,7 @@ title: "Adding Your Member Profile"
 
 # Add Your Member Profile
 
-Your member profile lives on this wiki and shows up on the [Members](../members/) page. It takes less than 5 minutes.
+Your member profile lives on this wiki and shows up on the [Members](/about/members/) page. It takes less than 5 minutes.
 
 ## Steps
 
