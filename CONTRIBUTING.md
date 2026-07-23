@@ -41,6 +41,20 @@ A maintainer will review your PR and merge it. Thank you for contributing!
 - Project descriptions and documentation
 - Corrections and improvements to existing content
 
+## Add Your Member Profile
+
+Your member profile lives on the wiki and shows up on the [Members](https://saiufosswiki.vercel.app/members) page. It takes less than 5 minutes.
+
+1. **Create a FOSS United account** — Go to [fossunited.org](https://fossunited.org) and create your profile. Set a profile photo there — your wiki profile photo is pulled automatically from your FOSS United account.
+
+2. **Fork this repo** — Click "Fork" at the top right of [saiufosswiki](https://github.com/y-bow/saiufosswiki).
+
+3. **Copy the template** — Find `docs/members/TEMPLATE.md` and copy it. Rename the copy to `your-name.md` (use lowercase and hyphens, like `john-doe.md`).
+
+4. **Fill in the fields** — Open the file and fill in every frontmatter field. Your `fossunited` username is required. If you want a custom photo instead of your FOSS United avatar, upload it to `static/img/members/your-name.jpg` and set the `photo` field.
+
+5. **Submit a Pull Request** — Push your changes and open a PR against `main`.
+
 ## Style Guide
 
 - Use Markdown (`.md` or `.mdx`) for all content files

@@ -15,6 +15,7 @@ const sidebars: SidebarsConfig = {
         'about/mission',
         'about/team',
         'about/contact',
+        'members/index',
       ],
     },
     {
@@ -58,6 +59,7 @@ const sidebars: SidebarsConfig = {
         'contribute/index',
         'contribute/add-event',
         'contribute/add-resource',
+        'contribute/add-member',
         'contribute/write-blog',
       ],
     },

@@ -13,7 +13,7 @@ The FOSS Club maintains and contributes to a number of open source projects. Bel
 
 This very site! A community-maintained wiki built with [Docusaurus](https://docusaurus.io/) and hosted on GitHub Pages. Contributions welcome — event writeups, blog posts, resource links, and more.
 
-- **Repository:** [saiufoss/wiki](https://github.com/y-bow/saiufosswiki)
+- **Repository:** [saiufosswiki](https://github.com/y-bow/saiufosswiki)
 - **Stack:** Docusaurus v3, TypeScript, GitHub Pages
 
 ## How to Start a Project
