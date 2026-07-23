@@ -104,7 +104,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `SaiU FOSS Club · Content: CC BY-SA 4.0 · Code: MIT · <a href="https://github.com/y-bow/saiufosswiki">GitHub</a>`,
+      copyright: ' ',
     },
     prism: {
       theme: prismThemes.github,

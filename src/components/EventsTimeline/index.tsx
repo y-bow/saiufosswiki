@@ -58,18 +58,15 @@ const events = [
     status: "completed",
     slug: "/events/beyond-syllabus"
   },
-
 ];
 
 export default function EventsTimeline() {
   return (
     <div style={{ margin: '2rem 0' }}>
-
-      {/* Year badge */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '2rem' }}>
         <span style={{
           background: 'var(--ifm-color-primary)',
-          color: '#0f1117',
+          color: '#0d1117',
           fontWeight: 700,
           fontSize: '13px',
           borderRadius: '9999px',
@@ -81,10 +78,7 @@ export default function EventsTimeline() {
         <div style={{ flex: 1, height: '1px', background: 'var(--ifm-toc-border-color)' }} />
       </div>
 
-      {/* Timeline */}
       <div style={{ position: 'relative', paddingLeft: '24px' }}>
-
-        {/* Vertical line */}
         <div style={{
           position: 'absolute',
           left: '7px',
@@ -102,8 +96,6 @@ export default function EventsTimeline() {
             alignItems: 'flex-start',
             gap: '16px',
           }}>
-
-            {/* Dot */}
             <div style={{
               position: 'absolute',
               left: '-21px',
@@ -114,11 +106,10 @@ export default function EventsTimeline() {
               background: event.status === 'upcoming'
                 ? 'var(--ifm-background-color)'
                 : 'var(--ifm-color-primary)',
-              border: `2px solid var(--ifm-color-primary)`,
+              border: '2px solid var(--ifm-color-primary)',
               zIndex: 1,
             }} />
 
-            {/* Card */}
             <Link
               to={event.slug}
               style={{ textDecoration: 'none', flex: 1 }}
@@ -169,8 +160,8 @@ export default function EventsTimeline() {
                     fontWeight: 600,
                     borderRadius: '9999px',
                     padding: '3px 10px',
-                    background: event.status === 'upcoming' ? '#e0f2fe' : '#dcfce7',
-                    color: event.status === 'upcoming' ? '#0284c7' : '#16a34a',
+                    background: event.status === 'upcoming' ? 'rgba(56, 189, 248, 0.1)' : 'rgba(34, 197, 94, 0.1)',
+                    color: event.status === 'upcoming' ? 'var(--ifm-color-primary)' : '#22c55e',
                     letterSpacing: '0.04em',
                     textTransform: 'uppercase',
                   }}>
@@ -187,7 +178,6 @@ export default function EventsTimeline() {
           </div>
         ))}
 
-        {/* Bottom CTA */}
         <div style={{
           marginTop: '2rem',
           paddingTop: '1.5rem',
