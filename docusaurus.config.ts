@@ -123,7 +123,7 @@ const config: Config = {
           html: `<a href="https://forum.fossunited.org" target="_blank" rel="noopener noreferrer" aria-label="FOSS United" class="footer-social-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15v-4H8l5-7v4h3l-5 7z"/></svg></a>`,
         },
       ],
-      copyright: `SAIU FOSS Club &middot; Content CC BY-SA 4.0 &middot; Code MIT`,
+      copyright: `SaiU FOSS Club &middot; Content CC BY-SA 4.0 &middot; MIT Licensed`,
     },
     prism: {
       theme: prismThemes.github,
