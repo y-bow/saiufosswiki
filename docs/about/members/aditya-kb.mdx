@@ -1,0 +1,72 @@
+---
+title: Aditya KB
+sidebar_label: Aditya KB
+---
+
+import { useMemberPhoto } from '@site/src/hooks/useMemberPhoto';
+
+export function AdityaProfile() {
+  const { photoUrl } = useMemberPhoto('aditya_kb', '1AdityaX');
+
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginBottom: 32 }}>
+      <img
+        src={photoUrl}
+        alt="Aditya KB"
+        style={{
+          width: 100,
+          height: 100,
+          borderRadius: '50%',
+          border: '2px solid #38bdf8',
+          objectFit: 'cover',
+        }}
+      />
+      <div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+          <h1 style={{ margin: 0, fontSize: 24 }}>Aditya KB</h1>
+          <span
+            style={{
+              padding: '2px 10px',
+              borderRadius: 99,
+              fontSize: 12,
+              fontWeight: 600,
+              background: '#38bdf820',
+              color: '#38bdf8',
+            }}
+          >
+            Core Member
+          </span>
+        </div>
+        <div style={{ fontSize: 13, color: '#8b949e', marginTop: 4 }}>Batch 2028</div>
+        <div style={{ display: 'flex', gap: 10, marginTop: 8, fontSize: 16 }}>
+          <a href="https://github.com/1AdityaX" target="_blank" rel="noopener noreferrer" title="GitHub">🐙</a>
+          <a href="https://fossunited.org/u/aditya_kb" target="_blank" rel="noopener noreferrer" title="FOSS United">🌐</a>
+        </div>
+        <a
+          href="https://fossunited.org/u/aditya_kb"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'inline-block',
+            marginTop: 8,
+            fontSize: 13,
+            color: '#38bdf8',
+            textDecoration: 'none',
+          }}
+        >
+          View FOSS United Profile →
+        </a>
+      </div>
+    </div>
+  );
+}
+
+<AdityaProfile />
+
+## About
+
+Core member of the FOSS Club at SAI University, Batch 2028.
+
+---
+
+*Contributing to the SAIU FOSS Wiki since 2025.*

@@ -16,6 +16,11 @@ const sidebars: SidebarsConfig = {
         'about/team',
         'about/contact',
         'about/members/index',
+        'about/members/aditya-kb',
+        'about/members/vidhyakshaya-kannan',
+        'about/members/pranav-r',
+        'about/members/arunbalaji-sathyanarayann',
+        'about/members/vaibhav-b',
       ],
     },
     {
