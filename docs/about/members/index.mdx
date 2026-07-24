@@ -4,15 +4,16 @@ sidebar_label: All Members
 ---
 
 import MembersGrid from '@site/src/components/MembersGrid';
+import Link from '@docusaurus/Link';
 
 # Members
 
 The people building the FOSS ecosystem at SAI University.
 
 <p style={{ fontSize: 14, marginBottom: 8 }}>
-  <a href="/about/team" style={{ color: '#38bdf8' }}>
+  <Link to="/about/team" style={{ color: '#38bdf8' }}>
     Meet the core team →
-  </a>
+  </Link>
 </p>
 
 <MembersGrid />
@@ -30,9 +31,9 @@ The people building the FOSS ecosystem at SAI University.
   <p style={{ margin: '0 0 12px', fontSize: 15, color: 'var(--ifm-font-color-base)' }}>
     Want your profile here? Add yourself in under 5 minutes.
   </p>
-  <a
+  <Link
+    to="/contribute/add-member"
     className="button button--primary"
-    href="/contribute/add-member"
     style={{
       background: '#38bdf8',
       color: '#0d1117',
@@ -41,5 +42,5 @@ The people building the FOSS ecosystem at SAI University.
     }}
   >
     Get Started
-  </a>
+  </Link>
 </div>
