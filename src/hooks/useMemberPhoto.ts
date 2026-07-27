@@ -12,13 +12,13 @@ async function fetchFossUnitedAvatar(fossunitedUsername: string): Promise<string
     if (!res.ok) return null;
     const html = await res.text();
 
-    // Try og:image first
-    const ogMatch = html.match(/<meta[^>]*property=["']og:image["'][^>]*content=["']([^"']+)["']/i);
-    if (ogMatch?.[1]) return ogMatch[1];
-
-    // Try profile img tag
+    // Try profile img tag first (actual avatar, not the OG social card)
     const imgMatch = html.match(/<img[^>]*class=["'][^"']*profile[^"']*["'][^>]*src=["']([^"']+)["']/i);
     if (imgMatch?.[1]) return imgMatch[1];
+
+    // Try og:image fallback
+    const ogMatch = html.match(/<meta[^>]*property=["']og:image["'][^>]*content=["']([^"']+)["']/i);
+    if (ogMatch?.[1]) return ogMatch[1];
 
     return null;
   } catch {

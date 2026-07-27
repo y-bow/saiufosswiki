@@ -13,10 +13,10 @@ async function fetchFossUnitedAvatar(username: string): Promise<string | null> {
     });
     if (!res.ok) return null;
     const html = await res.text();
-    const ogMatch = html.match(/<meta[^>]*property=["']og:image["'][^>]*content=["']([^"']+)["']/i);
-    if (ogMatch?.[1]) return ogMatch[1];
     const imgMatch = html.match(/<img[^>]*class=["'][^"']*profile[^"']*["'][^>]*src=["']([^"']+)["']/i);
     if (imgMatch?.[1]) return imgMatch[1];
+    const ogMatch = html.match(/<meta[^>]*property=["']og:image["'][^>]*content=["']([^"']+)["']/i);
+    if (ogMatch?.[1]) return ogMatch[1];
     return null;
   } catch {
     return null;
