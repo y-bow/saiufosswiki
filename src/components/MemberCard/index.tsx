@@ -1,27 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Link from '@docusaurus/Link';
 import type { Member } from '@site/src/data/members';
-
-function getGitHubAvatar(username: string): string {
-  return `https://github.com/${username}.png`;
-}
-
-async function fetchFossUnitedAvatar(username: string): Promise<string | null> {
-  try {
-    const res = await fetch(`https://fossunited.org/u/${username}`, {
-      signal: AbortSignal.timeout(5000),
-    });
-    if (!res.ok) return null;
-    const html = await res.text();
-    const imgMatch = html.match(/<img[^>]*class=["'][^"']*profile[^"']*["'][^>]*src=["']([^"']+)["']/i);
-    if (imgMatch?.[1]) return imgMatch[1];
-    const ogMatch = html.match(/<meta[^>]*property=["']og:image["'][^>]*content=["']([^"']+)["']/i);
-    if (ogMatch?.[1]) return ogMatch[1];
-    return null;
-  } catch {
-    return null;
-  }
-}
 
 const iconBtnStyle: React.CSSProperties = {
   display: 'inline-flex',
@@ -35,20 +14,7 @@ const iconBtnStyle: React.CSSProperties = {
 };
 
 export default function MemberCard({ member }: { member: Member }) {
-  const fallback = member.github ? getGitHubAvatar(member.github) : '/img/default-avatar.png';
-  const [photoUrl, setPhotoUrl] = useState(fallback);
-
-  useEffect(() => {
-    let cancelled = false;
-    async function load() {
-      if (member.fossunited) {
-        const url = await fetchFossUnitedAvatar(member.fossunited);
-        if (!cancelled && url) setPhotoUrl(url);
-      }
-    }
-    load();
-    return () => { cancelled = true; };
-  }, [member.fossunited, member.github]);
+  const photoUrl = member.github ? `https://github.com/${member.github}.png` : '/img/default-avatar.png';
 
   return (
     <div
@@ -80,6 +46,7 @@ export default function MemberCard({ member }: { member: Member }) {
               width: '100%',
               height: '100%',
               objectFit: 'cover',
+              objectPosition: 'center',
               display: 'block',
             }}
           />
