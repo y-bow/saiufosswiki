@@ -521,7 +521,19 @@
   }
 }
 
-/* ─── PAGINATION (prev/next) ──────────────────────────── */
+/* ─── FOOTER EDIT BUTTONS ──────────────────────── */
+
+.theme-doc-footer-edit-meta-row a {
+  text-decoration: none;
+}
+
+.theme-doc-footer-edit-meta-row a:hover {
+  color: var(--ifm-color-content);
+  border-color: var(--ifm-color-primary);
+  background: var(--ifm-background-color);
+}
+
+/* ─── PAGINATION (prev/next) ──────────────────── */
 
 .pagination-nav__link {
   border: 1px solid var(--ifm-toc-border-color);
