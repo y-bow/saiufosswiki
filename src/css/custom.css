@@ -599,11 +599,21 @@
   .members-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .member-card__avatar {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 600px) {
   .members-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .member-card__avatar {
+    width: 96px;
+    height: 96px;
   }
 }
 
@@ -624,6 +634,8 @@
   border-radius: 10px;
   cursor: pointer;
   transition: transform 0.2s;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .member-card__avatar {
@@ -666,11 +678,6 @@
 @media (max-width: 400px) {
   .member-card {
     padding: 12px 8px;
-  }
-
-  .member-card__avatar {
-    width: 96px;
-    height: 96px;
   }
 
   .member-card__name {

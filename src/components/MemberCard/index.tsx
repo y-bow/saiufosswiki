@@ -28,7 +28,14 @@ export default function MemberCard({ member }: { member: Member }) {
     >
       <Link
         to={`/about/members/${member.slug}`}
-        style={{ textDecoration: 'none', color: 'inherit' }}
+        style={{
+          textDecoration: 'none',
+          color: 'inherit',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          width: '100%',
+        }}
       >
         <div
           className="member-card__avatar"
