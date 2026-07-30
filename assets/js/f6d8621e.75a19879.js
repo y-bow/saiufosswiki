@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaiu_foss_wiki=self.webpackChunksaiu_foss_wiki||[]).push([["9074"],{4142(s){s.exports=JSON.parse('{"metadata":{"permalink":"/saiufosswiki/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

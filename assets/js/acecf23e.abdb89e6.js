@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaiu_foss_wiki=self.webpackChunksaiu_foss_wiki||[]).push([["3220"],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/saiufosswiki/blog","blogTitle":"Blog","authorsListPath":"/saiufosswiki/blog/authors"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaiu_foss_wiki=self.webpackChunksaiu_foss_wiki||[]).push([["195"],{7289(s){s.exports=JSON.parse('{"authors":[{"name":"SaiU FOSS Club","title":"FOSS Club at Sai University","url":"https://github.com/y-bow","key":"saufoss","page":null,"count":1}]}')}}]);

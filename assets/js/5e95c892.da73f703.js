@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaiu_foss_wiki=self.webpackChunksaiu_foss_wiki||[]).push([["1668"],{6569(s,e,r){r.r(e),r.d(e,{default:()=>f});var a=r(4848);r(6540);var u=r(4164),i=r(4308),c=r(8287),n=r(2831),t=r(816);function f(s){return(0,a.jsx)(i.e3,{className:(0,u.A)(c.G.wrapper.docsPages),children:(0,a.jsx)(t.A,{children:(0,n.v)(s.route.routes)})})}}}]);

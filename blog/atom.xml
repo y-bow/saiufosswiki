@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://saiufoss.github.io/saiufosswiki/blog</id>
+    <title>SaiU FOSS Wiki Blog</title>
+    <updated>2025-07-21T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://saiufoss.github.io/saiufosswiki/blog"/>
+    <subtitle>SaiU FOSS Wiki Blog</subtitle>
+    <icon>https://saiufoss.github.io/saiufosswiki/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome to the SaiU FOSS Wiki]]></title>
+        <id>https://saiufoss.github.io/saiufosswiki/blog/welcome-to-saiu-foss-wiki</id>
+        <link href="https://saiufoss.github.io/saiufosswiki/blog/welcome-to-saiu-foss-wiki"/>
+        <updated>2025-07-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the SaiU FOSS Wiki — the community-maintained living record of the FOSS Club at Sai University.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the <strong>SaiU FOSS Wiki</strong> — the community-maintained living record of the FOSS Club at Sai University.</p>
+<p>This wiki is where we document our events, share resources, and write about the things we're building. It's built with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer" class="">Docusaurus</a> and hosted on GitHub Pages, which means <strong>anyone can contribute</strong>.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-youll-find-here">What You'll Find Here<a href="https://saiufoss.github.io/saiufosswiki/blog/welcome-to-saiu-foss-wiki#what-youll-find-here" class="hash-link" aria-label="Direct link to What You'll Find Here" title="Direct link to What You'll Find Here" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Event writeups</strong> — recaps and photos from workshops, mapping parties, and hack nights</li>
+<li class=""><strong>Resources</strong> — curated FOSS tools, guides, and policy links</li>
+<li class=""><strong>Projects</strong> — open source projects maintained by club members</li>
+<li class=""><strong>Blog posts</strong> — updates, tutorials, and perspectives from club members</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-contribute">How to Contribute<a href="https://saiufoss.github.io/saiufosswiki/blog/welcome-to-saiu-foss-wiki#how-to-contribute" class="hash-link" aria-label="Direct link to How to Contribute" title="Direct link to How to Contribute" translate="no">​</a></h2>
+<p>Fork the <a href="https://github.com/y-bow/saiufosswiki" target="_blank" rel="noopener noreferrer" class="">wiki repo</a>, add your content, and open a pull request. Check the <a href="https://github.com/y-bow/saiufosswiki/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer" class="">Contributing Guide</a> for details.</p>
+<p>We're excited to build this with you. Welcome aboard!</p>]]></content>
+        <author>
+            <name>SaiU FOSS Club</name>
+            <uri>https://github.com/y-bow</uri>
+        </author>
+        <category label="Introduction" term="Introduction"/>
+    </entry>
+</feed>

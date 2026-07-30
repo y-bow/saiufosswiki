@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaiu_foss_wiki=self.webpackChunksaiu_foss_wiki||[]).push([["92"],{4967(){}}]);

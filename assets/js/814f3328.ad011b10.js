@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaiu_foss_wiki=self.webpackChunksaiu_foss_wiki||[]).push([["1833"],{5513(s){s.exports=JSON.parse('{"title":"All Posts","items":[{"title":"Welcome to the SaiU FOSS Wiki","permalink":"/saiufosswiki/blog/welcome-to-saiu-foss-wiki","unlisted":false,"date":"2025-07-21T00:00:00.000Z"}]}')}}]);
